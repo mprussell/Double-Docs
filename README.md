@@ -1,13 +1,13 @@
 # Double Docs
 
-A simple, two-up, side-by-side Google Docs editor.
+Double Docs is a simple, two-up, single-window, side-by-side Google Docs editor in Electron.
 
 ## To build (mac)
 
 Requires npm and Electron.
 Requires npm module `electron-packager`.
 
-From project folder run: `npm run package-mac`
+From project folder run: `npm run package-mac`.
 The build will be in in the `release-builds` folder.
 
 ## First run
