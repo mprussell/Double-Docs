@@ -12,7 +12,7 @@ The build will be in in the `release-builds` folder.
 
 ## First run
 
-* Run the application in `release-builds` (or move it somewhere like /Applicartions first).
+* Run the application in `release-builds` (or move it somewhere like /Applications first).
 * Sign-in using either of the Google sign-in windows, after which both docs will be authenticated.
 * Edit either/both new docs OR select the blue Google Docs icon top-left to browse for other docs. Click one to load and edit.
 
