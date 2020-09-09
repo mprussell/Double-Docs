@@ -21,7 +21,7 @@ Addition of resizable Doc panels.
 
 ### Removed
 
-## [0.1.8] - 2020-09-09
+## [0.1.8] - 2020-08-20
 
 Initial build for relase.
 
