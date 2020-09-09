@@ -18,24 +18,46 @@
 
     .titlebar {
       width: 100%;
-      height: 12px;
+      height: 16px;
       -webkit-user-select: none;
       -webkit-app-region: drag;
     }
 
-    #wv1 {
-      margin: 0 1vh 0 0; 
-      padding: 0; 
-      width: 49vw; 
-      height:calc(100vh - 12px); 
-      float: left;
+    .drag-container {
+      height: calc(100vh - 16px);
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
     }
 
-    #wv2 {
+    .wv {
+      width: 100%;
+    }
+
+    .left-wv, .right-wv {
+      display: flex;
       margin: 0; 
-      padding: 0; 
-      width: 50vw; 
-      height:calc(100vh - 12px);
+      padding: 0;
+      border: 0;
+      width: 50vw;
+      height: calc(100vh - 16px);
+      min-width: 25vw;
+    }
+
+    .right-wv {
+      flex: 1;
+    }
+
+    .resizer {
+      background-color: #fff;
+      cursor: ew-resize;
+      height: 100%;
+      width: 6px;
+    }
+
+    .resizer:hover {
+      background-color: #cbd5e0;
     }
 
     </style>
@@ -45,10 +67,28 @@
   <body>
     <div class="titlebar"></div>
 
-    <webview class="wv" id="wv1" autosize="on" src="https://docs.google.com/document/u/0/?tgif=d" disablewebsecurity nodeintegration webpreferences="allowRunningInsecureContent"></webview>
-
-    <webview class="wv" id="wv2" autosize="on" src="https://docs.google.com/document/u/0/?tgif=d" disablewebsecurity nodeintegration webpreferences="allowRunningInsecureContent"></webview>
-
+    <div class="drag-container">
+      <div class="left-wv">
+        <webview  class="wv" 
+                  autosize="on" 
+                  src="https://docs.google.com/document/u/0/?tgif=d" 
+                  disablewebsecurity 
+                  nodeintegration 
+                  webpreferences="allowRunningInsecureContent">
+        </webview>
+      </div>
+        <div class="resizer" id="drag"></div>
+      <div class="right-wv">
+        <webview  class="wv" 
+                  autosize="on" 
+                  src="https://docs.google.com/document/u/0/?tgif=d" 
+                  disablewebsecurity 
+                  nodeintegration 
+                  webpreferences="allowRunningInsecureContent">
+        </webview>
+      </div>
+    </div>
+    
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
 
