@@ -61,4 +61,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	// Attach the handler
 	resizer.addEventListener('mousedown', mouseDownHandler);
+
+	// Reset 50/50 on double-click
+    resizer.ondblclick = function(){
+      rightSide.style.width = '50%';
+      leftSide.style.width = '50%';
+    };
 });

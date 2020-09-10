@@ -1,7 +1,7 @@
 {
   "name": "double-docs",
   "productName": "Double Docs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "description": "A simple, two-up, single-window, side-by-side Google Docs editor in Electron.",
   "author": "Mark Russell <mark@mrussell.co.uk>",

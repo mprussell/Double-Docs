@@ -1,0 +1,52 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.titlebar {
+  width: 100%;
+  height: 16px;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+.drag-container {
+  height: calc(100vh - 16px);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.wv {
+  width: 100%;
+}
+
+.left-wv, .right-wv {
+  display: flex;
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  width: 50vw;
+  height: calc(100vh - 16px);
+  min-width: 25vw;
+}
+
+.right-wv {
+  flex: 1;
+}
+
+.resizer {
+  background-color: #fff;
+  cursor: ew-resize;
+  height: calc(100% - 16px);
+  width: 6px;
+  border-radius: 3px;
+}
+
+.resizer:hover {
+  background-color: #cbd5e0;
+}
