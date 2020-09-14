@@ -4,6 +4,10 @@ Double Docs is a simple two-up, single-window Google Docs editor for writers bui
 
 ![Double Docs screenshot](https://mrussell.co.uk/projects/double-docs-screenshot.png)
 
+## Downlaod Double Docs
+
+[Download the latest release for your OS](https://github.com/mrkrsl/Double-Docs/releases)
+
 ## To build
 
 Requires,
