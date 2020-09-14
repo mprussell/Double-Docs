@@ -19,10 +19,10 @@ Note. Windows and Linux builds minimally tested.
 
 ## First run
 
-* Open the disk image (Mac), run the installer (Windows) to install or run or the AppImage* (Linux).
+* Open the disk image (Mac), run the installer (Windows) or run or the AppImage (Linux).
 * Sign-in using either of the Google sign-in windows, after which both Docs panels will be authenticated.
 
-Note. On Linux you may need to grant executable permission to the App Image befroe it will run. (Right click > Properties > Permissions + Check 'Allow executing file as program', OR `chmod o+x file.appimage`.)
+Note. On Linux you may need to grant executable permission to the AppImage before it will run. (Right click > Properties > Permissions + Check 'Allow executing file as program', OR `chmod o+x file.appimage`.)
 
 ## Usage
 
@@ -31,3 +31,7 @@ Note. On Linux you may need to grant executable permission to the App Image befr
 * Double-click to reset the 50/50 split.
 
 Note. Use the Docs, Sheets, Slides or Forms file browsers, not Google Drive's as the latter can't open a document in Double Docs.
+
+## Licence
+
+[Released under the MIT Licence](LICENSE.md)
