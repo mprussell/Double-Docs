@@ -1,11 +1,24 @@
 # Double Docs Changelog
 
-Double Docs is a simple, two-up, single-window, side-by-side Google Docs editor for writers built in Electron.
+Double Docs is a simple two-up, single-window Google Docs editor for writers built in Electron.
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+
+## [0.2.2] - 2020-09-14
+
+Now built for Mac, Windows and Linux with electron-builder.
+
+### Added
+* Files and folders to supprt electron-builder (.dmg for Mac, NSIS installer for Windows and AppImage for Linux.)
+
+### Changed
+* Replaced electron-packager package.json config for electron-builder
+
+### Removed
+* release-builds/
 
 ## [0.2.1] - 2020-09-10
 

@@ -3,6 +3,7 @@ const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
 function createWindow () {
+
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 25600,
@@ -15,6 +16,8 @@ function createWindow () {
     },
     titleBarStyle: "hidden",
   })
+
+  mainWindow.setMenu(null);
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
