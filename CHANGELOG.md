@@ -7,6 +7,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.0.0] - 2020-09-24
+
+Tidy for 1.0.0 release.
+
+### Added
+
+### Changed
+* Now battle tested wiht daily use (Mac version) this is a minor codebase tidy up ready for bump to 1.0.0 release.
+
+### Removed
+
 ## [0.2.2] - 2020-09-14
 
 Now built for Mac, Windows and Linux with electron-builder.
