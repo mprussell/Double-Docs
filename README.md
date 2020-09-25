@@ -8,19 +8,6 @@ Double Docs is a simple two-up, single-window Google Docs editor for writers bui
 
 [Download the latest release for your OS](https://github.com/mrkrsl/Double-Docs/releases)
 
-## To build
-
-Requires,
-* npm
-* Electron
-* npm module `electron-builder`
-
-From project folder run: `electron-builder -mwl`. Builds for Mac, Windows and Linux will be in the `dist` folder.
-
-Alternatively, to target only one platform it's `electron-builder --mac`, `electron-builder --win` or `electron-builder --linux`.
-
-Note. Windows and Linux builds minimally tested.
-
 ## First run
 
 * Open the disk image (Mac), run the installer (Windows) or run or the AppImage (Linux).
@@ -35,6 +22,19 @@ Note. On Linux you may need to grant executable permission to the AppImage befor
 * Double-click to reset the 50/50 split.
 
 Note. Use the Docs, Sheets, Slides or Forms file browsers, not Google Drive's as the latter can't open a document in Double Docs.
+
+## To build
+
+Requires,
+* npm
+* Electron
+* npm module `electron-builder`
+
+From project folder run: `electron-builder -mwl`. Builds for Mac, Windows and Linux will be in the `dist` folder.
+
+Alternatively, to target only one platform it's `electron-builder --mac`, `electron-builder --win` or `electron-builder --linux`.
+
+Note. Windows and Linux builds minimally tested.
 
 ## Licence
 

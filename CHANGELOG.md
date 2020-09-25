@@ -14,7 +14,7 @@ Tidy for 1.0.0 release.
 ### Added
 
 ### Changed
-* Now battle tested wiht daily use (Mac version) this is a minor codebase tidy up ready for bump to 1.0.0 release.
+* Now battle tested with daily use (Mac version) this is a minor codebase tidy up ready for bump to 1.0.0 release.
 
 ### Removed
 
