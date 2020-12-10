@@ -2,7 +2,7 @@
   "name": "double-docs",
   "productName": "Double Docs",
   "appId": "uk.co.mrussell.double-docs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "description": "A simple two-up, single-window Google Docs editor for writers built in Electron.",
   "author": "Mark Russell <mark@mrussell.co.uk> @mrkrsl",
@@ -27,8 +27,7 @@
     "icon": "build/512x512.png",
     "category": "Office"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "electron": "9.2.0"
   },
